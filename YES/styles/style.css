@@ -1,0 +1,177 @@
+*{
+    /*border: 1px solid black; */
+    
+}
+
+body{
+    margin: 0;
+    
+    
+}
+
+.first{
+    height: 350px;
+    background-color: #1F2937;
+   color: #FFFFFF;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.head{
+    display:flex;
+    justify-content: space-between;
+    height: 30%;
+    font-size: 24px;
+    
+}
+
+ul li{
+    display: inline;
+    font-size: 25px;
+    margin-left: 15px;
+    
+    
+}
+
+.belowheader{
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1{
+    width: max-content;
+    font-size: 48px;
+}
+.belowheader p{
+    width: 40%;
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.belowheader button{
+    width: fit-content;
+    background-color: rgb(68, 68, 177);
+    font-size: large;
+    border-radius: 10px;
+}
+
+.belowheader img {
+
+    height: 200px;
+    width: 500px;
+    margin-left: 390px;
+    object-fit:cover;
+   object-position:50% 50%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 350px;
+    padding-right: 350px;
+
+}
+
+main h3{
+     flex-basis: 100% ;
+     text-align: center;
+     margin-bottom: 50px;
+     margin-top: 50px;
+     font-size: 25px;
+     
+}
+
+main .box p{
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.box,
+.box img{
+    width: 200px;
+    border-radius: 20px;
+    text-shadow: 10px slateblue;
+    
+    
+}
+
+.box img{
+    border-color:  rgb(69, 69, 141);
+    
+}
+
+.belowmain{
+    padding-left: 350px;
+    padding-right: 350px;
+    height:fit-content
+}
+
+.belowmain p{
+    
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+
+}
+
+.secondp{
+    text-align: end;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.firstp{
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+footer{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.foot{
+    
+    padding: 20px;
+    background-color: rgb(68, 68, 177);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+
+   
+    
+}
+
+.callsign h4,
+.callsign p{
+    margin:0 0 0 70px;
+    color: #FFFFFF;
+    
+}
+
+.callsign h4{
+    font-size: 35px;
+}
+
+.foot button{
+    margin-right: 250px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(68, 68, 177);
+    border: 3px solid white;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
